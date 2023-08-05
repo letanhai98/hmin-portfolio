@@ -90,7 +90,7 @@ export const techs: any = {
     {
       name: 'Figma',
       description: 'Advanced',
-      image: '/images/Figma.svg',
+      image: '/images/figma.svg',
     },
   ],
 };

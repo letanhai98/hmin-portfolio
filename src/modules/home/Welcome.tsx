@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export const Welcome = () => {
   return (
-    <div className="container flex flex-col md:flex-row justify-center items-center gap-8">
+    <div className="container flex flex-col-reverse md:flex-row justify-center items-center gap-8">
       <div
         data-aos="zoom-in-right"
         className="flex flex-col gap-3 duration-200"
@@ -14,7 +14,9 @@ export const Welcome = () => {
         <p className="text-base text-yellow-500 opacity-60 font-medium">
           Hello world, I'm
         </p>
-        <h1 className="text-white text-2x md:text-6xl font-bold">Lê Tấn Hải</h1>
+        <h1 className="text-white text-4xl md:text-6xl font-bold">
+          Lê Tấn Hải
+        </h1>
         <div className="min-w-[300px]">
           <TypeAnimation
             sequence={[

@@ -17,8 +17,8 @@ export const Header = () => {
   const renderNavMobile = () => {
     return (
       <div
-        className={`overflow-y-auto lg:hidden fixed top-0 z-[100] flex flex-col h-full bg-black ${
-          visible ? 'w-full left-0' : 'translate-x-[-150%]'
+        className={`overflow-y-auto md:hidden fixed top-0 z-[100] flex flex-col h-full bg-black ${
+          visible ? 'w-full left-0' : 'translate-x-[-200%]'
         } duration-300 overflow-x-hidden px-5`}
       >
         <div className="flex justify-end items-center !h-[72px]">

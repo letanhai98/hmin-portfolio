@@ -6,6 +6,7 @@ export const projects = [
     description:
       'Build Your Collection Today on the NFT Marketplace, power by BSC Network.',
     buildBy: 'NextJs, EtherJs, BNB Chain, Tailwind',
+    isApp: false,
   },
   {
     name: 'Desui',
@@ -14,6 +15,7 @@ export const projects = [
     description:
       'Where Web3 early supporters and decentralized hunters get on SHIPs before it hits the moon. Using SUI chain.',
     buildBy: 'NextJs, Sui, Tailwind',
+    isApp: false,
   },
   {
     name: 'Lucky Game',
@@ -22,6 +24,7 @@ export const projects = [
     description:
       'From only 1$, choose 1 number from 00-99 for a chance of x3 rewards.',
     buildBy: 'ReactJS, BNB Chain, Web3',
+    isApp: false,
   },
   {
     name: 'EMOVES',
@@ -30,6 +33,7 @@ export const projects = [
     description:
       'EMOVES is a cutting-edge Web3 fitness and M2E (Move to Earn) app designed to make adopting a healthier lifestyle effortless. By joining EMOVES, you gain access to a vibrant community where you can exercise alongside friends and engage in exciting challenges that not only improve your well-being but also boost your earnings.',
     buildBy: 'React Native, BNB Chain, Web3',
+    isApp: true,
   },
   {
     name: 'LeapFit',
@@ -38,6 +42,7 @@ export const projects = [
     description:
       'LEAPFIT is a Web3, move, fitness, social and NFTs. Move and get gift free from our partner.',
     buildBy: 'React Native, BNB Chain, SUI Chain, Web3',
+    isApp: true,
   },
   {
     name: 'OBC Smart',
@@ -46,6 +51,7 @@ export const projects = [
     description: `OBC - ONE BUSINESS CONNECTION is the largest business connection, training and coaching organization in Vietnam.
       With the Vision of Connecting and building a Vietnamese business community with Knowledge, Integrity, Successful Business and sustainable development.`,
     buildBy: 'React Native',
+    isApp: true,
   },
   {
     name: 'CComPos',
@@ -58,6 +64,7 @@ export const projects = [
     + Payment
     + Report for nail store' owner`,
     buildBy: 'React Native',
+    isApp: true,
   },
   {
     name: 'CComTek',
@@ -69,6 +76,7 @@ export const projects = [
     + Call receptionist for help
     + Report for employee`,
     buildBy: 'React Native',
+    isApp: true,
   },
   {
     name: 'CComKiosk',
@@ -79,6 +87,7 @@ export const projects = [
     + Choose technicial
     `,
     buildBy: 'React Native',
+    isApp: true,
   },
   {
     name: 'CComSales',
@@ -91,6 +100,7 @@ export const projects = [
     - choose features
     accounts used to login CComPOS, CComKiosk app`,
     buildBy: 'React Native',
+    isApp: true,
   },
   {
     name: 'Renovation Website',
@@ -98,6 +108,7 @@ export const projects = [
     banner: '/images/projects/renovation.png',
     description: `Now, maybe cannot find this website`,
     buildBy: 'AngularJs, Tailwind',
+    isApp: true,
   },
   {
     name: 'FMan Website',
@@ -105,6 +116,7 @@ export const projects = [
     banner: '/images/projects/fman.png',
     description: `Now, maybe cannot find this website`,
     buildBy: 'ReactJs, Tailwind',
+    isApp: true,
   },
   {
     name: 'Website Administrator',
@@ -112,5 +124,6 @@ export const projects = [
     banner: '',
     description: `...and some other admin websites`,
     buildBy: 'ReactJs, NextJs, Tailwind',
+    isApp: true,
   },
 ];

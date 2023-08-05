@@ -43,12 +43,12 @@ export const techs: any = {
     {
       name: 'MongoDb',
       description: 'Medium',
-      image: '/images/mongodb.png',
+      image: '/images/mongodb.svg',
     },
     {
       name: 'GraphQL',
       description: 'Medium',
-      image: '/images/graphql.png',
+      image: '/images/graphql.svg',
     },
     {
       name: 'Tailwind',
@@ -58,7 +58,7 @@ export const techs: any = {
     {
       name: 'Sass',
       description: 'Medium',
-      image: '/images/sass.png',
+      image: '/images/sass.svg',
     },
     {
       name: 'Web3',

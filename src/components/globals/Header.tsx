@@ -95,6 +95,7 @@ export const Header = () => {
           <a
             href="/LeTanHai_cv.pdf"
             target="_blank"
+            download
             className="text-white bg-yellow-500 rounded-lg  h-10 w-24 font-medium flex justify-center items-center hover:bg-gray-900 duration-200"
           >
             My CV

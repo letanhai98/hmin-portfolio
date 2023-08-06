@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 export const useScroll = (needScroll = true) => {
   const [scrollY, setScrollY] = useState(0);
 
-  const handleScrollToTop = () => {
+  const handleScrollToTop = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }, []);
 
-  const scrollToId = (id: string) => {
+  const scrollToId = useCallback((id: string) => {
     let access = document.getElementById(id) as any;
     access && access.scrollIntoView({ behavior: 'smooth' }, true);
-  };
+  }, []);
 
   useEffect(() => {
     const onScroll = () => {

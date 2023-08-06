@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export const Welcome = () => {
   return (
-    <div className="container flex flex-col-reverse md:flex-row justify-center items-center gap-8">
+    <div className="container flex flex-col-reverse md:flex-row justify-center items-center gap-10">
       <div
         data-aos="zoom-in-right"
         className="flex flex-col gap-3 duration-200"

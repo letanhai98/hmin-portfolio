@@ -79,7 +79,8 @@ export const Header = () => {
     <header
       className={twMerge(
         'flex justify-center items-center fixed top-0 w-full h-[72px] z-50',
-        scrollY >= 80 ? 'bg-backdrop-modal' : ''
+        scrollY >= 80 ? 'bg-backdrop-modal' : '',
+        pathname === '/portfolio' ? 'bg-gray-950' : ''
       )}
     >
       <div className="flex flex-row justify-between items-center container p-5">
@@ -93,9 +94,8 @@ export const Header = () => {
         {renderNavMobile()}
         <ul className="flex flex-row gap-4 items-center">
           <a
-            href="/LeTanHai_cv.pdf"
+            href="https://drive.google.com/file/d/1VlRn9XJIfA9alqMCnkopn2WWUqD6ICCK/view?usp=drive_link"
             target="_blank"
-            download="LeTanHai_cv.pdf"
             className="text-white bg-yellow-500 rounded-lg  h-10 w-24 font-medium flex justify-center items-center hover:bg-gray-900 duration-200"
           >
             My CV

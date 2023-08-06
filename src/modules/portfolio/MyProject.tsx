@@ -6,8 +6,8 @@ import { twMerge } from 'tailwind-merge';
 
 export const MyProject = () => {
   return (
-    <section className="flex flex-col gap-8">
-      <div className="flex flex-col gap-1 items-center text-center">
+    <section className="flex flex-col relative">
+      <div className="flex flex-col sticky top-[72px] gap-1 items-center text-center bg-gray-950 z-10 py-6">
         <h1 className="text-white text-2xl font-medium">
           Past Project Experience
         </h1>

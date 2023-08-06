@@ -27,14 +27,21 @@ export const MyProject = () => {
               className="flex flex-col h-full p-4 rounded-lg bg-gray-900 cursor-pointer group overflow-hidden gap-2 md:gap-4"
             >
               {item?.banner && (
-                <div className="h-[200px] md:h-[260px] relative">
+                <div
+                  className={twMerge(
+                    'h-[200px] md:h-[260px] relative',
+                    item?.isApp ? 'rounded-full' : ''
+                  )}
+                >
                   <Image
                     src={item?.banner}
                     fill
                     alt="banner"
                     className={twMerge(
                       'group-hover:scale-[1.08] duration-200',
-                      item?.isApp ? 'object-contain md:object-none' : ''
+                      item?.isApp
+                        ? 'object-contain md:object-none rounded-full'
+                        : ''
                     )}
                   />
                 </div>
@@ -42,11 +49,11 @@ export const MyProject = () => {
               <h2 className="text-white text-xl md:text-2xl font-medium text-center">
                 {item?.name}
               </h2>
-              <p className="text-sm md:text-base text-white opacity-60 group-hover:opacity-100 duration-200">
+              <p className="text-sm text-white opacity-60 group-hover:opacity-100 duration-200">
                 {item?.description}
               </p>
               <div className="flex flex-row justify-between items-center">
-                <span className="text-sm md:text-base text-blue-700 opacity-50 font-medium group-hover:text-yellow-500">
+                <span className="text-sm text-blue-700 opacity-50 font-medium group-hover:text-yellow-500">
                   {item?.buildBy}
                 </span>
               </div>

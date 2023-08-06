@@ -17,7 +17,7 @@ export const Welcome = () => {
         <h1 className="text-white text-4xl md:text-6xl font-bold">
           Lê Tấn Hải
         </h1>
-        <div className="min-w-[300px]">
+        <div className="min-w-[320px]">
           <TypeAnimation
             sequence={[
               1000,

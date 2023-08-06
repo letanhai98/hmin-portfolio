@@ -42,7 +42,7 @@ export const Skills = () => {
         <li
           key={item?.name}
           className={twMerge(
-            'w-full p-3 flex items-center group gap-4 border-yellow-500 border-opacity-60 border-2 cursor-pointer duration-300 hover:bg-gray-900 ease-out'
+            'w-full p-3 flex items-center group gap-4 border-yellow-500 border-opacity-60 border-2 cursor-pointer duration-300 hover:bg-gray-900 ease-out overflow-hidden'
           )}
         >
           <Image
@@ -53,8 +53,10 @@ export const Skills = () => {
             className="rounded-full"
           />
           <div className="h-12 flex flex-col justify-center items-start duration-300 ease-out">
-            <span className="text-white text-xl font-medium">{item?.name}</span>
-            <span className="text-gray-500 text-base font-medium hidden group-hover:block">
+            <span className="text-white text-lg md:text-xl font-medium">
+              {item?.name}
+            </span>
+            <span className="text-gray-500 text-sm md:text-base font-medium hidden group-hover:block">
               {item?.description}
             </span>
           </div>

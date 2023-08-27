@@ -82,7 +82,7 @@ export const AboutMe = () => {
         </div>
         <div className="flex flex-row text-white text-base font-medium gap-2">
           <BsTelegram size={24} />
-          <span>@hminusd</span>
+          <span>@haiminusd</span>
         </div>
       </div>
     </div>

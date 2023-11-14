@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: 'Misk Event',
+    link: '',
+    banner: '/images/projects/misk-logo.jpg',
+    description:
+      'Misk Foundation is a Non-Profit Organization Devoted to Cultivate and Encourage Learning and Leadership in The Youth for a Better Future in Saudi Arabia',
+    buildBy: 'React Native (I18n Arabic)',
+    isApp: true,
+  },
+  {
     name: 'Open World NFT',
     link: 'https://openworldnft.io/',
     banner: '/images/projects/openworldnft.png',

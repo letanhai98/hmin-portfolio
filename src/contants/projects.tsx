@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: 'Misk Event',
-    link: '',
+    link: 'https://apps.apple.com/vn/app/misk-events/id6470585518?l=vi',
     banner: '/images/projects/misk-logo.jpg',
     description:
       'Misk Foundation is a Non-Profit Organization Devoted to Cultivate and Encourage Learning and Leadership in The Youth for a Better Future in Saudi Arabia',

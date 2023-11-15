@@ -1,6 +1,6 @@
 export const projects = [
   {
-    name: 'Misk Event',
+    name: 'Misk Events',
     link: 'https://apps.apple.com/vn/app/misk-events/id6470585518?l=vi',
     banner: '/images/projects/misk-logo.jpg',
     description:

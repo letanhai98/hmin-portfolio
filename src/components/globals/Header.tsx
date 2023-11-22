@@ -19,8 +19,7 @@ export const Header = () => {
       <div
         className={`overflow-y-auto md:hidden fixed top-0 z-[100] flex flex-col h-full bg-black ${
           visible ? 'w-full left-0' : 'translate-x-[-200%]'
-        } duration-300 overflow-x-hidden px-5`}
-      >
+        } duration-300 overflow-x-hidden px-5`}>
         <div className="flex justify-end items-center !h-[72px]">
           <AiOutlineCloseCircle
             className="text-white cursor-pointer hover:text-yellow-500"
@@ -40,8 +39,7 @@ export const Header = () => {
                       ? 'text-white border-b-yellow-500'
                       : 'text-gray-500 border-b-transparent'
                   )}
-                  onClick={onToggleVisible}
-                >
+                  onClick={onToggleVisible}>
                   {nav.name}
                 </Link>
               </li>
@@ -65,8 +63,7 @@ export const Header = () => {
                   ? 'text-white border-b-yellow-500'
                   : 'text-gray-500 border-b-transparent',
                 scrollY >= 80 ? 'text-white opacity-80' : ''
-              )}
-            >
+              )}>
               {nav.name}
             </Link>
           </li>
@@ -81,23 +78,20 @@ export const Header = () => {
         'flex justify-center items-center fixed top-0 w-full h-[72px] z-50',
         scrollY >= 80 ? 'bg-backdrop-modal' : '',
         pathname === '/portfolio' ? 'bg-gray-950' : ''
-      )}
-    >
+      )}>
       <div className="flex flex-row justify-between items-center container p-5">
         <Link
           href={'/'}
-          className="text-white text-2xl hover:text-yellow-500 duration-200 cursor-pointer"
-        >
+          className="text-white text-2xl hover:text-yellow-500 duration-200 cursor-pointer">
           hminDev()
         </Link>
         {renderNavDesktop()}
         {renderNavMobile()}
         <ul className="flex flex-row gap-4 items-center">
           <a
-            href="https://drive.google.com/file/d/1PWvzjUK-vEW_s4cjDILXMKkGP31SIM7n/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1ugAUO0hQ8SA2MpXjYmj4FXcW1PVUV3wB/view?usp=sharing"
             target="_blank"
-            className="text-white bg-yellow-500 rounded-lg  h-10 w-24 font-medium flex justify-center items-center hover:bg-gray-900 duration-200"
-          >
+            className="text-white bg-yellow-500 rounded-lg  h-10 w-24 font-medium flex justify-center items-center hover:bg-gray-900 duration-200">
             My CV
           </a>
           {socials?.map((social, index) => (
@@ -105,8 +99,7 @@ export const Header = () => {
               <Link
                 href={social.href}
                 target="_blank"
-                className="text-white hover:text-yellow-500 duration-200"
-              >
+                className="text-white hover:text-yellow-500 duration-200">
                 {social.icon}
               </Link>
             </li>

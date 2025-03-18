@@ -20,8 +20,7 @@ export const AboutMe = () => {
       </div>
       <div
         data-aos="fade-up-right"
-        className="flex justify-center items-center w-full"
-      >
+        className="flex justify-center items-center w-full">
         <Image
           src="/hmin.png"
           alt="hmin"
@@ -37,12 +36,11 @@ export const AboutMe = () => {
     <div className="flex flex-col gap-8 w-full justify-center items-start">
       <p
         data-aos="fade-left"
-        className="text-white text-base font-medium indent-8"
-      >
+        className="text-white text-base font-medium indent-8">
         My name is Le Tan Hai, and I am {new Date().getFullYear() - 1998} years
         old, born in 1998. I have{' '}
         <span className="text-yellow-500 font-bold text-xl">
-          nearly 4 years
+          nearly 6 years
         </span>{' '}
         of experience working as a front-end developer from{' '}
         <span className="text-yellow-500 font-bold">Vietnam</span>. I am
@@ -70,15 +68,14 @@ export const AboutMe = () => {
       <div
         data-aos="fade-left"
         data-aos-duration="600"
-        className="flex flex-col gap-4"
-      >
+        className="flex flex-col gap-4">
         <div className="flex flex-row text-white text-base font-medium gap-2">
           <TbMailFilled size={24} />
           <span>letanhai29011998@gmail.com</span>
         </div>
         <div className="flex flex-row text-white text-base font-medium gap-2">
           <TbPhoneFilled size={24} />
-          <span>+84981517107</span>
+          <span>+84825517107 | +84981517107</span>
         </div>
         <div className="flex flex-row text-white text-base font-medium gap-2">
           <BsTelegram size={24} />

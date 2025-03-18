@@ -1,5 +1,22 @@
 export const projects = [
   {
+    name: 'FlashX',
+    link: 'https://chromewebstore.google.com/detail/flashx/hcgcncmnpkniciabfioanfikiealjnim',
+    banner: '/images/projects/flashx.png',
+    description: `A tool for trading on X, Dexscreener and Pumpfun`,
+    buildBy: 'ReactJS, NextJs, Web3 (EVM - Solana)',
+    isApp: true,
+  },
+  {
+    name: 'Mini App FlashX',
+    link: 'https://t.me/FlashXAIBot',
+    banner: '/images/projects/flashx.png',
+    description:
+      'FlashX Miniapp simplifies trading with instant trades, real-time signals, and support for 6 chains.',
+    buildBy: 'NextJs, Web3 (EVM - Solana)',
+    isApp: true,
+  },
+  {
     name: 'Misk Events',
     link: 'https://apps.apple.com/vn/app/misk-events/id6470585518?l=vi',
     banner: '/images/projects/misk-logo.jpg',

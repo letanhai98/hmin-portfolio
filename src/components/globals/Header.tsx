@@ -89,7 +89,7 @@ export const Header = () => {
         {renderNavMobile()}
         <ul className="flex flex-row gap-4 items-center">
           <a
-            href="https://drive.google.com/file/d/1ugAUO0hQ8SA2MpXjYmj4FXcW1PVUV3wB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GOHucOosTN4sPOiITwMRR9yn7fqVlL8R/view?usp=sharing"
             target="_blank"
             className="text-white bg-yellow-500 rounded-lg  h-10 w-24 font-medium flex justify-center items-center hover:bg-gray-900 duration-200">
             My CV

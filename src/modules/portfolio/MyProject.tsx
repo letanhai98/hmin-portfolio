@@ -41,7 +41,7 @@ export const MyProject = () => {
                       className={twMerge(
                         'group-hover:scale-[1.08] duration-200',
                         item?.isApp
-                          ? 'object-contain md:object-none rounded-full scale-[1.1] group-hover:scale-[1.18] md:scale-[1.5] md:group-hover:scale-[1.6]'
+                          ? 'h-[100px] w-[100px] md:w-[200px] md:h-[200px] object-contain md:object-none rounded-full scale-[1.1] group-hover:scale-[1.18] md:scale-[1.5] md:group-hover:scale-[1.6]'
                           : ''
                       )}
                     />
